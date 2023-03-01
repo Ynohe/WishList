@@ -1,0 +1,54 @@
+.WishContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #F0E6D2;
+    border-bottom-width: 1px;
+    border-style: solid;
+    border-color: #C8AA6E;
+}
+
+.Get{
+    display: flex;
+    align-items: center;
+}
+
+.Find{
+    border-style: solid;
+    border-width: 1px;
+    border-color: #C8AA6E;
+    border-radius: 9999px;
+    padding: 0.75rem;
+    cursor: pointer;
+}
+
+.line-through{
+    text-decoration: line-through;
+}
+
+.tickColor{
+    background-color: green;
+    padding: 0.25rem;
+    border-radius: 9999px;
+    cursor: pointer;
+}
+
+.checkIcon{
+    height: 1rem;
+    width: 1rem;
+}
+
+.Wishes{
+    padding-left: 0.75rem;
+}
+
+.closeIcon{
+    height: 1.25rem;
+    width: 1.25rem;
+    cursor: pointer;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 300ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}

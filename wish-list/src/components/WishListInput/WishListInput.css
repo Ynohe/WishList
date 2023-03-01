@@ -1,0 +1,38 @@
+.InputContainer{
+    margin-top: 6px;
+    position: relative;
+}
+
+.circleContainer{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    padding-left: 0.75rem;
+    display: flex;
+    align-items: center;
+    pointer-events: none;
+}
+
+.circle{
+    border-width: 1px;
+    border-color: #C89B3C;
+    border-style: solid;
+    padding: 0.75rem;
+    border-radius: 9999px;
+}
+
+.TextInput{
+    padding-left: 3rem;
+    width: 100%;
+    padding-top: 1rem; 
+    padding-bottom: 1rem;
+    box-shadow: 0 10px 15px -3px #785A28, 0 4px 6px -4px #785A28;
+    border-radius: 0.75rem;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 300ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}   

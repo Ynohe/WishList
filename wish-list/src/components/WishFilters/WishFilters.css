@@ -1,0 +1,120 @@
+.filterContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    /* background-color: #C89B3C; */
+    border-bottom-width: 1px;
+    /* border-style: solid; */
+    /* border-color: #785A28; */
+}
+
+.Left{
+    color: #F0E6D2;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+
+.FilterButtonContainer{
+    display: flex;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+.buttonFiltercolor1{
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 5px 15px; 
+    background: #1e2328;
+    color: #cdbe91;
+    box-shadow: inset 0 0 2px #000000;
+    border-image: linear-gradient(to bottom, #c8aa6d, #7a5c29);
+    border-image-slice: 1;
+    border-width: 2px;
+}
+
+.buttonFiltercolor1:hover{
+    text-shadow: 0 0 5px #ffffff80;
+    box-shadow: 0 0 8px 0 #ffffff50;
+    background: linear-gradient(to bottom, #1e2328, #433d2b);
+    cursor: pointer;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 300ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.buttonFiltercolor2{
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 5px 15px; 
+    background: #1e2328;
+    color: #cdbe91;
+    box-shadow: inset 0 0 2px #000000;
+    border-image: linear-gradient(to bottom, #c8aa6d, #7a5c29);
+    border-image-slice: 1;
+    border-width: 2px;
+}
+
+.buttonFiltercolor2:hover{
+    text-shadow: 0 0 5px #ffffff80;
+    box-shadow: 0 0 8px 0 #ffffff50;
+    background: linear-gradient(to bottom, #1e2328, #433d2b);
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.buttonFiltercolor3{
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 5px 15px; 
+    background: #1e2328;
+    color: #cdbe91;
+    box-shadow: inset 0 0 2px #000000;
+    border-image: linear-gradient(to bottom, #c8aa6d, #7a5c29);
+    border-image-slice: 1;
+    border-width: 2px;
+}
+
+.buttonFiltercolor3:hover{
+    text-shadow: 0 0 5px #ffffff80;
+    box-shadow: 0 0 8px 0 #ffffff50;
+    background: linear-gradient(to bottom, #1e2328, #433d2b);
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.color1{
+    color: #1E2328;
+}
+
+.color2{
+    color: #3C3C41;
+}
+
+.ClearButton{
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 5px 15px; 
+    background: #1e2328;
+    color: #cdbe91;
+    box-shadow: inset 0 0 2px #000000;
+    border-image: linear-gradient(to bottom, #c8aa6d, #7a5c29);
+    border-image-slice: 1;
+    border-width: 2px;
+    margin-top: 8px;
+}
+.ClearButton:hover{
+    text-shadow: 0 0 5px #ffffff80;
+    box-shadow: 0 0 8px 0 #ffffff50;
+    background: linear-gradient(to bottom, #1e2328, #433d2b);
+    cursor: pointer;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 300ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
