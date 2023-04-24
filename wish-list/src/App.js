@@ -3,7 +3,7 @@ import {Title} from "./components/Title";
 import './App.css';
 import { WishListInput } from "./components/WishListInput";
 import {WishList} from "./components/WishList";
-import {Wish} from "./components/Wish";
+
 
 function App() {
 
